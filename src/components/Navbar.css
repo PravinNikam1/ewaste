@@ -1,0 +1,20 @@
+.navbar-nav {
+    margin-left: auto;
+  
+}
+.navbar-light{
+    background: rgb(186, 231, 84);
+}
+/* div{
+ margin-bottom: 100px;
+} */
+/* this adds padding between */
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
