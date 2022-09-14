@@ -1,12 +1,9 @@
 import React from "react";
+import Carousel from "./Carousel";
 
 function Body(){
     return(
-        <div className="alert alert-primary" role="alert" >
-        <div style={{height:"200px"}}></div>
-        <h1>This is Body component</h1>
-            
-        </div>
+     <Carousel></Carousel>
     )
 }
 export default Body;

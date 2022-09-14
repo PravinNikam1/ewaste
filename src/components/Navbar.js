@@ -33,7 +33,7 @@ function Navbar() {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">
-                  <button type="button" class="btn btn-success">
+                  <button type="button" class="btn btn-success" >
                     <h6>Home</h6>
                   </button>
                 </Link>
