@@ -2,9 +2,16 @@ import companyLogo from "../images/logo.gif";
 
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 
 function Navbar() {
+
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+
   return (
     <div>
       <nav className="navbar fixed-top navbar-expand-lg navbar navbar-light" data-spy="affix" data-offset-top="197">
@@ -130,7 +137,7 @@ function Navbar() {
 
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/admin">
-                  <button type="button" class="btn btn-success">
+                  <button type="button" class="btn btn-success" onClick={handleShow}>
                     <h6>Admin</h6>
                   </button>
                 </Link>

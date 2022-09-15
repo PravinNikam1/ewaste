@@ -8,16 +8,18 @@ import AdminLogin from "./components/Admin/AdminLogin";
 import DonarLogin from "./components/Donar/DonarLogin";
 import Register from "./components/Donar/Register";
 import Contact from "./components/Contact/Contact";
+import ForgotPasswordDonar from "./components/Donar/ForgotPasswordDonar";
+import ForgotPasswordAdmin from "./components/Admin/ForgotPasswordAdmin";
 
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <div classname="nb">
         <Navbar />
-      </div>
-      <div>
+
+        <div style={{height:"115px"}}></div>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="blog" element={<Blog />} />
@@ -27,8 +29,10 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="donarlogin" element={<DonarLogin />} />
           <Route path="register" element={<Register />} />
+          <Route path="forgotpassworddonar" element={<ForgotPasswordDonar />} />
+          <Route path="forgotpasswordadmin" element={<ForgotPasswordAdmin />} />
         </Routes>
-      </div>
+    
     </div>
   );
 }

@@ -1,41 +1,107 @@
-.App {
-  text-align: center;
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+  margin: 3px 0px;
+  display: block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-img-top:hover {
+width: 110%;
+height: 110%;	
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #3e4555;
 }
 
-.App-link {
-  color: #61dafb;
+.team4 .font-weight-medium {
+	font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
 }
-.nb{
-  margin-top: 100px;
+
+.team4 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+		font-size: 13px;
 }
+
+.team4 ul li a {
+  color: #8d97ad;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #316ce8;
+}
+
+
+.carousel-title{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.23;
+  color: #8BC34A; 
+  text-align: left;
+  margin-right: 30%;
+  margin-bottom: 5%;
+  font-family: Raleway,sans-serif;
+}
+
+span{
+  color: whitesmoke; 
+}
+
+.carousel-desc{
+  font-size:15px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: white; 
+  text-align:left;
+  margin-right: 30%;
+  margin-bottom: 22%;
+  font-family: Lato,sans-serif;
+  overflow-x: hidden;
+  letter-spacing: 1px;
+}
+
+.carousel-control-prev{
+  color: #8BC34A;
+}
+
+
+.active{
+  color: #8BC34A;
+
+}
+
+btn btn-outline-success{
+  color: #8BC34A;
+}
+
+
+
+
