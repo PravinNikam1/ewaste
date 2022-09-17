@@ -10,12 +10,16 @@ import Register from "./components/Donar/Register";
 import Contact from "./components/Contact/Contact";
 import ForgotPasswordDonar from "./components/Donar/ForgotPasswordDonar";
 import ForgotPasswordAdmin from "./components/Admin/ForgotPasswordAdmin";
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from "react-toastify";
+
 
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
+        <ToastContainer /> {/*  position="bottom-center"  by applying this we can make position of  messtasge to botton center*/}
         <Navbar />
 
         <div style={{height:"115px"}}></div>

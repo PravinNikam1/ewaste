@@ -4,10 +4,15 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
+import Button from "react-bootstrap/Button";
+import AdminLogin from "./Admin/AdminLogin";
+
+
 
 function Navbar() {
 
   const [show, setShow] = useState(false);
+
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
@@ -137,7 +142,7 @@ function Navbar() {
 
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/admin">
-                  <button type="button" class="btn btn-success" onClick={handleShow}>
+                <button type="button" class="btn btn-success">
                     <h6>Admin</h6>
                   </button>
                 </Link>

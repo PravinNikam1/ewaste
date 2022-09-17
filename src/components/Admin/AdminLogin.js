@@ -52,7 +52,7 @@ function AdminLogin(){
 
                             <Container className="text-center">
 
-                                <div><Button color="success" block> Login</Button>   </div>
+                                <div><Button color="success" > Login</Button>   </div>
 
                                 <Link className="navbar-brand" to="/forgotpasswordadmin">
                                     <h5>Forgot Password?</h5>
